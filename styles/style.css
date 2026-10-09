@@ -18,6 +18,12 @@ img {
   --darkblue: #64a8fa;
 }
 
+p {
+  font-family: "Inter", sans-serif;
+  color: var(--brown);
+  font-weight: 500;
+}
+
 /* Header */
 .header_red {
   display: flex;
@@ -120,7 +126,7 @@ margin-right: 2rem;
     display: block;
     background-color: #ffffff;
     position: absolute;
-    top: 22%;
+    top: 110px;
     right: 2%;
     border-radius: 6px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -143,4 +149,26 @@ margin-right: 2rem;
   height: 40px;
 }
 
+/* Footer */
+footer {
+  background-color: var(--red);
+  padding-inline: 2rem;
+  padding-top: 2rem;
+}
+
+.foot_head {
+  font-weight: 800;
+}
+
+.foot_spacey p {
+  margin-block: 0.5rem;
+}
+
+footer .logo {
+  width: 10rem;
+}
+
+.some {
+  padding: 2rem;
+}
 
