@@ -1,4 +1,11 @@
 "use strict";
+
+// const param = new URLSearchParams(window.location.search);
+// const selectedId = param.get("id");
+// console.log("selectedId", selectedId);
+
+// const productURL = `https://kea-alt-del.dk/t7/api/products?category=${selectedId}`;
+
 const productURL = `https://dummyjson.com/products/category/groceries`;
 const listContainer = document.querySelector(".product_list_container");
 const product = document.querySelector(".product_card");
