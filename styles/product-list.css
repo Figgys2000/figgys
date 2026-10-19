@@ -160,8 +160,9 @@ button {
   background-color: #f1f1f1;
   /* min-width: 100px; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   z-index: 1;
-  margin-left: -1.4rem;
+  right: 32%;
 }
 
 /* Links inside the dropdown */
@@ -175,6 +176,7 @@ button {
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
+  border-radius: 4px;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
