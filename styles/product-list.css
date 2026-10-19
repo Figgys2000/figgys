@@ -95,7 +95,7 @@ header {
 .categories {
   position: relative;
   width: 100%;
-  max-width: 550px;
+  /* max-width: 550px; */
   margin: 0 auto;
   padding: 30px 20px;
 
@@ -198,6 +198,8 @@ button {
   justify-content: space-between; */
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  gap: 10px;
 }
 h1 {
   grid-row: 1;
@@ -219,7 +221,7 @@ h1 {
 
   h1 {
     font-size: 4rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
 
   h2 {
