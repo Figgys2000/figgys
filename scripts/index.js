@@ -37,7 +37,7 @@ function showProducts(products) {
                  </div>
                  </a>`;
   });
-  productList.innerHTML = myInnerHtml;
+  //   productList.innerHTML = myInnerHtml;
 }
 
 getData(productURL);
