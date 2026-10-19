@@ -7,10 +7,9 @@ h1 {
 }
 
 h2 {
-  margin-left: 1rem;
   color: var(--brown);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -195,17 +194,23 @@ button {
 } */
 
 .product_sort_grid {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
-
-option {
-  border-radius: 10px;
-}
-
 h1 {
-  margin-left: 8rem;
+  grid-row: 1;
+  grid-column: 2;
 }
+.dropdown {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+/* h1 {
+  margin-left: 8rem;
+} */
 
 @media screen and (min-width: 1000px) {
   main {
