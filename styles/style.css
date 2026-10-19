@@ -45,7 +45,6 @@ body {
 
 .basket_box {
   display: flex;
-  justify-content: space-between;
   width: 20%;
   margin-right: 2rem;
 }
