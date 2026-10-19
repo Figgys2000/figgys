@@ -43,7 +43,6 @@ img {
   position: relative;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  
 }
 
 .hero_img-1 {
@@ -73,7 +72,7 @@ img {
 .product-img {
   background-color: white;
   border: 3px solid var(--darkblue);
-  box-shadow: 0 0 0 5px var(--blue); 
+  box-shadow: 0 0 0 5px var(--blue);
   border-radius: 2px;
   height: 80%;
   width: 100%;
@@ -87,7 +86,7 @@ img {
   padding-bottom: 0.5rem;
   width: 100%;
   border: 5px solid var(--blue);
-  box-shadow: 0 0 0 5px var(--blue); 
+  box-shadow: 0 0 0 5px var(--blue);
   border-radius: 0 0 2px 2px;
 }
 
@@ -121,6 +120,9 @@ img {
   font-weight: 800;
 }
 
+.product-link {
+  text-decoration: none;
+}
 /* PRODUCT LIST CONTAINER */
 
 .product_list_container {
@@ -149,19 +151,19 @@ img {
 }
 
 .more_products_btn {
-background-color: var(--brown);
-border: 0;
-border-radius: 30px;
-padding-block: 0.8rem;
-margin-inline: 1.5rem;
+  background-color: var(--brown);
+  border: 0;
+  border-radius: 30px;
+  padding-block: 0.8rem;
+  margin-inline: 1.5rem;
 }
 
 .more_products_btn a {
-color: white;
-font-size: 1rem;
-font-weight: 600;
-font-family: "Inter", sans-serif;
-text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
 }
 
 .more_products_btn:hover {
@@ -183,9 +185,9 @@ text-decoration: none;
 }
 
 .opskrift_box {
-border: 7px solid var(--brown);
-border-radius: 6px;
-padding-bottom: 1rem;
+  border: 7px solid var(--brown);
+  border-radius: 6px;
+  padding-bottom: 1rem;
 }
 
 .opskrift_box p {
@@ -195,61 +197,59 @@ padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 1000px) {
+  main {
+    margin-inline: 5rem;
+  }
 
-main {
-  margin-inline: 5rem;
-}
+  h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
 
-h1 {
-  font-size: 4rem;
-  margin-top: 2rem;
-}
+  h2 {
+    font-size: 2.5rem;
+  }
 
-h2 {
-  font-size: 2.5rem;
-}
+  .hero_img {
+    justify-items: center;
+  }
 
-.hero_img {
-  justify-items: center;
-}
+  .hero_img-1 {
+    width: 65%;
+    margin-top: 2.5rem;
+    justify-items: center;
+  }
 
-.hero_img-1 {
-  width: 65%;
-   margin-top: 2.5rem;
-  justify-items: center;
-}
+  .hero_img-2 {
+    width: 9%;
+    left: 47%;
+  }
 
-.hero_img-2 {
-  width: 9%;
-  left: 47%;
-}
+  .product_list_container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 
-.product_list_container {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+  .opskrift_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+  }
 
-.opskrift_container {
-  grid-template-columns: 1fr 1fr;
-  gap: 10rem;
-}
+  .more_products {
+    grid-template-columns: 4fr 1fr;
+  }
 
-.more_products {
-  grid-template-columns: 4fr 1fr;
-}
+  .more_products p {
+    font-size: 2rem;
+    text-align: end;
+  }
 
-.more_products p {
-  font-size: 2rem;
-  text-align: end;
-}
+  .more_products_btn {
+    margin-right: 0;
+    padding-block: 1.5rem;
+    border-radius: 10rem;
+  }
 
-.more_products_btn {
-  margin-right: 0;
-  padding-block: 1.5rem;
-  border-radius: 10rem;
-}
-
-.more_products_btn a {
-  font-size: 1.5rem;
-}
-
+  .more_products_btn a {
+    font-size: 1.5rem;
+  }
 }
