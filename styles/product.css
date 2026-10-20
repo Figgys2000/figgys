@@ -111,10 +111,6 @@ font-weight: 800;
         gap: 2rem;
     }
 
-    .product_header {
-        padding-right: 16rem;
-    }
-
     .product_facts {
         max-width: 39ch;
     }
@@ -129,9 +125,10 @@ font-weight: 800;
         margin-top: 0.5rem;
     }
 
-    .now_price {
-        margin-right: 1.5rem;
+    .before_price {
+        justify-self: start;
     }
+
 
     .product button {
         padding-inline: 60px;
