@@ -45,7 +45,6 @@ body {
 
 .basket_box {
   display: flex;
-  justify-content: space-between;
   width: 20%;
   margin-right: 2rem;
 }
@@ -64,6 +63,9 @@ body {
   font-family: "Poetsen One", sans-serif;
   color: white;
   font-size: 2rem;
+}
+.product-link {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 999px) {
