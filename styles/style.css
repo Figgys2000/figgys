@@ -64,6 +64,9 @@ body {
   color: white;
   font-size: 2rem;
 }
+.product-link {
+  text-decoration: none;
+}
 
 @media screen and (max-width: 999px) {
   .menu a {
