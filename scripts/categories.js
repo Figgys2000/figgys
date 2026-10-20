@@ -21,21 +21,21 @@ drinks.addEventListener("click", drinksclick);
 
 function drinksclick() {
   console.log("drinksclick");
-  location.href = "product-list.html?id=17&19&23&24&36";
+  location.href = "product-list.html?id=29&32&34&39&42";
 }
 
 produce.addEventListener("click", produceclick);
 
 function produceclick() {
   console.log("produceclick");
-  location.href = "product-list.html?id=17&19&23&24&36";
+  location.href = "product-list.html?id=16&21&25&26&30&31&33&35&37&40";
 }
 
 essentials.addEventListener("click", essentialsclick);
 
 function essentialsclick() {
   console.log("essentialsclick");
-  location.href = "product-list.html?id=17&19&23&24&36";
+  location.href = "product-list.html?id=18&20&22&27&28&38&41";
 }
 
 function getData(url) {
