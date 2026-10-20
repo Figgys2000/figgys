@@ -58,7 +58,7 @@ figgys/
 
 Vi har opdelt JavaScript og Css, så hver side har sine egne filer.
 
-<!-- ### index.js
+### index.js
 
 Bruges på forsiden.
 Her bliver indhold vist dynamisk.
@@ -74,15 +74,15 @@ Henter data fra Rest API'et og viser en liste med produkter på siden.
 3. Data hentes fra Rest API
 4. Data bliver gennemgået med loop
 5. HTML bliver indsat i DOM'en
-6. Brugeren kan klikke på en vare -->
+6. Brugeren kan klikke på en vare
 
-<!-- ### product-list.js
+### product-list.js
 
 Bruges til detaljesiden. Den læser et id fra URL'en og henter derefter det rigtige produkt fra Rest API'et.
 
 I stedet for at lave én side per produkt, bruger vi ét id i URL'en til at vise det rigtige indhold.
 
---- -->
+---
 
 ## Navngivning
 
@@ -176,19 +176,13 @@ Vi har tænkt bæredygtighed ind i projektet gennem vores valg af teknologier, k
 
 ---
 
-<!-- ## Udfordringer undervejs
+## Udfordringer undervejs
 
 En af vores udfordringer var at få data fra Rest API’et vist korrekt på siderne.
 Det var også lidt svært at få id med videre i URL’en til detaljesiden.
 
 **Løsninger:**
-
-- Console.logge data undervejs
-- Teste fetch-kald separat
-- Bruge URLSearchParams
-- Dele opgaverne mere tydeligt i gruppen
-
---- -->
+Vi har ikke fundet nogen løsning på kategori siden endnu og er løbet tør for tid
 
 ## Mulige forbedringer
 
