@@ -2,8 +2,7 @@
 
 ## Om projektet
 
-Dette projekt er lavet som en del af Tema 8.
-Vi har lavet et dynamisk website med HTML, CSS og JavaScript, hvor indholdet bliver hentet fra et Rest API.
+I den sidste del af tema 8 har vi fået til opgave at arbejde i teams omkring udviklingen af et dynamisk website. Vi skal arbejde med Rest API, (fetch) data i JSON-format, lave dynamisk liste view og single view med denne data samt en præsentabel landings page.
 
 Sitet består af flere sider, hvor brugeren kan:
 
@@ -110,26 +109,6 @@ Vi har brugt camelCase i JavaScript, fordi det gør koden mere ensartet og lette
 
 ---
 
-<!-- ## Kommentarer i koden
-
-Vi har kommenteret de steder i koden, hvor det giver mening.
-Fx ved funktioner, fetch-kald og steder hvor der sker DOM-manipulation.
-
-**Eksempel:**
-
-```javascript
-// Henter opskrifter fra Rest API'et
-async function fetchRecipes() {
-  const res = await fetch(apiURL);
-  const data = await res.json();
-  return data.recipes;
-}
-```
-
-Vi har prøvet ikke at skrive kommentarer til helt åbenlyse ting, men kun dér hvor det hjælper forståelsen. -->
-
----
-
 ## Data og JSON-struktur
 
 Vi henter data fra et API i JSON-format.
@@ -155,7 +134,7 @@ Vi henter data fra et API i JSON-format.
 - **id** – bruges til at sende brugeren videre til detaljesiden
 - **title** – Varenavn
 - **description** – beskrivelse af vare
-- **category** – varekategorier (fx protein, drinks, produce, essentials)
+- **category** – produktkategorier (fx protein, drinks, produce & essentials)
 - **thumbnail** – vare billede
 
 ---
@@ -165,7 +144,7 @@ Vi henter data fra et API i JSON-format.
 Vi har brugt GitHub til at samarbejde om projektet.
 
 Vi har arbejdet med branches, så vi ikke sad og ændrede i det samme på samme tid.
-Der er nogle steder hvor navnene har været lidt hurtige, da vi har været presset på tid.
+Der er nogle steder hvor navnene har været lidt "hurtige", da vi har været presset på tid.
 
 ### Eksempler på branches
 
@@ -186,7 +165,7 @@ Der er nogle steder hvor navnene har været lidt hurtige, da vi har været press
 
 ## Bæredygtighed
 
-Vi har tænkt bæredygtighed ind i projektet ved fx at genbruge kode
+Vi har tænkt bæredygtighed ind i projektet gennem vores valg af teknologier, kode og visuelle elementer.
 
 **Tiltag:**
 
@@ -203,13 +182,7 @@ En af vores udfordringer var at få data fra Rest API’et vist korrekt på side
 Det var også lidt svært at få id med videre i URL’en til detaljesiden.
 
 **Løsninger:**
-
-- Console.logge data undervejs
-- Teste fetch-kald separat
-- Bruge URLSearchParams
-- Dele opgaverne mere tydeligt i gruppen
-
----
+Vi har ikke fundet nogen løsning på kategori siden endnu og er løbet tør for tid
 
 ## Mulige forbedringer
 
@@ -218,6 +191,8 @@ Hvis vi skulle arbejde videre med projektet, kunne vi forbedre det ved at tilfø
 - Søgefunktion
 - Error handling
 - Form
+- Tilføj til kurv funktion
+- Lave recipe siden
 
 ---
 
